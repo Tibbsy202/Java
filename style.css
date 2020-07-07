@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+ /*--- Add in a containor to simulate mobile ---*/
+
+header{
+  height: 3rem;
+  width: 100%;
+  background: purple;
+}
+
+main{
+  background: #131317;
+  height: 90vh;
+  color: snow;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.convo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.robo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.msg-box{
+  border: 1px solid white;
+  padding: 6px;
+  padding-left: 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+  background: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice{
+  background: black;
+  color: snow;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  width: 2.7rem;
+  height: 2.7rem;
+  padding: 5px;
+  cursor: pointer;
+}
